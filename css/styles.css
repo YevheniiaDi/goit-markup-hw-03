@@ -105,7 +105,7 @@ a {
     color: #434455;
 
 }
-.tittle-container {
+.title-container {
 
 }
 
@@ -113,8 +113,7 @@ a {
     background-color: #2e2f42;
     display: flex;
     width: 100%;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 188px 0 188px;
 
 }
 .text-page {
@@ -126,14 +125,14 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 496px;
 }
 .button {
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     display: block;
     margin-left: auto;
@@ -248,8 +247,7 @@ a {
 
 .card-item {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0 32px;
     padding-left: 16px;
     padding-right: 16px;
     text-align: center;
@@ -345,6 +343,7 @@ border-radius: 0 0 4px 4px;
     letter-spacing: 0.02em;
      color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 8px;
 
 }
 
@@ -372,7 +371,7 @@ border-radius: 0 0 4px 4px;
 
 }
 .footer-logo {
-    display: inline;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
