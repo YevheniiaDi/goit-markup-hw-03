@@ -105,22 +105,41 @@ a {
     color: #434455;
 
 }
-
-.page-footer {
-    background-color: #2e2f42;
+.tittle-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
 .title-page {
     background-color: #2e2f42;
+    display: flex;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 .text-page {
+    display: block;
+    padding-top: 188px;
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    width: 496px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button {
+    display: block;
+    margin-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 169px;
+    border: none;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -128,7 +147,9 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 4px;
+
 }
 .button:hover,
 .button:active,
@@ -137,13 +158,42 @@ a {
 }
 
 
-.advantages {}
+.advantages {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-.advantages-title {}
+.advantages-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
-.advantages-list {}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
 
-.advantages-item {}
+.advantages-item {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: calc((100% - 72px) / 4);
+
+}
 
 .advantages-subtitle {
     font-weight: 500;
@@ -151,6 +201,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .advantages-item-text {
@@ -162,9 +213,18 @@ a {
 }
 .team {
     background-color: #f4f4fd;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
+.team-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
 .team-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -175,16 +235,31 @@ a {
 }
 
 .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+   
 
+}
+
+.card-item {
+    padding: 32px o;
+    text-align: center;
 }
 
 .team-item {
 background-color: #FFFFFF
 
+
+}
+.team-item:last-child {
+    margin-right: 0;
 }
 
 .team-image {
-
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .team-subtitle {
@@ -194,6 +269,7 @@ background-color: #FFFFFF
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -205,8 +281,15 @@ background-color: #FFFFFF
     text-transform: capitalize;
 }
 
-.portfolio {
+.our-portfolio {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
+.portfolio-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -216,15 +299,26 @@ background-color: #FFFFFF
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .portfolio-list {
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
     background-color: #fff;
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-content {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
 }
 
 
@@ -249,11 +343,21 @@ background-color: #FFFFFF
 
 .footer-text {
     font-size: 16px;
-     line-height: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
+.page-footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
+}
+.footer-logo {
+    display: inline;
+    margin-bottom: 16px;
+}
 
 
 
